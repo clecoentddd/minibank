@@ -1,0 +1,34 @@
+.blacklist-container {
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 8px;
+  font-family: 'Arial', sans-serif;
+  color: #721c24;
+}
+
+.blacklist-container h2 {
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.blacklist-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.blacklist-item {
+  background-color: #f1b0b7;
+  margin: 6px 0;
+  padding: 8px 12px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px #d98895;
+  transition: background-color 0.3s ease;
+}
+
+.blacklist-item:hover {
+  background-color: #e06670;
+  color: white;
+  cursor: default;
+}

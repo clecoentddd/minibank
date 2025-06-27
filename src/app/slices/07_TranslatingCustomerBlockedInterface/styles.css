@@ -1,0 +1,28 @@
+.external-blacklist-form {
+  background-color: #fff8f5;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 6px;
+  border: 1px solid #e7c2b0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.external-blacklist-form h2 {
+  color: #a44200;
+}
+
+.external-blacklist-form input {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border: 1px solid #d0a98f;
+  border-radius: 4px;
+}
+
+.external-blacklist-form button {
+  padding: 0.5rem 1rem;
+  background-color: #a44200;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

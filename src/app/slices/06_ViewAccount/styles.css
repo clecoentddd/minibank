@@ -1,0 +1,34 @@
+.accounts-container {
+  font-family: "Arial", sans-serif;
+  margin: 1rem 0;
+  background-color: #f0f7f8;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.accounts-container h2 {
+  color: #0a617f;
+}
+
+.accounts-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.5rem;
+}
+
+.accounts-table th,
+.accounts-table td {
+  border: 1px solid #a3c4d5;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.accounts-table th {
+  background-color: #a3c4d5;
+  color: #0a2f3d;
+}
+
+.accounts-table tr:nth-child(even) {
+  background-color: #d7e6ec;
+}
