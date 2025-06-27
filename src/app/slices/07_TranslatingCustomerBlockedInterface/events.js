@@ -5,7 +5,6 @@ export function CustomerBlacklisted(id, name) {
 
   return {
     type: "CustomerBlacklisted",
-    customerStatus,                      // this is optional if you want it at the root level
     payload: { id, name, customerStatus },  // use the defined variable here
   };
 }
