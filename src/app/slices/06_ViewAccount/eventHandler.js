@@ -11,7 +11,7 @@ subscribe("AccountCreated", (event) => {
     {
       id: event.payload.accountId,
       customerId: event.payload.customerId,
-      // Add more fields if needed
+      accountStatus: event.payload.accountStatus,
     },
   ]);
 });

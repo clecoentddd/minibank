@@ -16,13 +16,15 @@ export default function ViewAccount() {
             <tr>
               <th>Account ID</th>
               <th>Customer ID</th>
+               <th>Status</th>
             </tr>
           </thead>
           <tbody>
-            {accounts.map(({ id, customerId }) => (
+            {accounts.map(({ id, customerId , accountStatus }) => (
               <tr key={id}>
                 <td>{id}</td>
                 <td>{customerId}</td>
+                <td>{accountStatus}</td>
               </tr>
             ))}
           </tbody>
